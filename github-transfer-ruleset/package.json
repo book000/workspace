@@ -1,0 +1,8 @@
+{
+	"devDependencies": {
+		"@octokit/rest": "21.0.2"
+	},
+	"dependencies": {
+		"@octokit/graphql": "8.1.1"
+	}
+}
