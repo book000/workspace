@@ -25,3 +25,6 @@
 - ログに機密情報を出力しない。
 
 ## リポジトリ固有
+- **purpose**: Meta repository for GitHub utility functions
+- **github_integration**: Octokit REST and GraphQL APIs
+- **scale**: Single module / utility collection

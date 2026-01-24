@@ -15,6 +15,15 @@
 - 日本語と英数字の間には半角スペースを入れる。
 
 ## プロジェクト概要
+Minimal workspace repository containing GitHub-related utility modules (github-transfer-ruleset).
+
+### 技術スタック
+- **言語**: JavaScript/TypeScript
+- **フレームワーク**: N, /, A
+- **パッケージマネージャー**: npm
+- **主要な依存関係**:
+  - @octokit/rest@21.0.2
+  - @octokit/graphql@8.1.1
 
 ## コーディング規約
 - フォーマット: 既存設定（ESLint / Prettier / formatter）に従う。
@@ -22,9 +31,11 @@
 - コメント言語: 日本語
 - エラーメッセージ: 英語
 
-## 開発コマンド
+### 開発コマンド
 ```bash
-# README を確認してください
+# install
+npm install
+
 ```
 
 ## 注意事項
@@ -33,3 +44,6 @@
 - 既存のプロジェクトルールがある場合はそれを優先する。
 
 ## リポジトリ固有
+- **purpose**: Meta repository for GitHub utility functions
+- **github_integration**: Octokit REST and GraphQL APIs
+- **scale**: Single module / utility collection
