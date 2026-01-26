@@ -28,11 +28,11 @@ Gemini CLI 向けのコンテキストと作業方針を定義する。
 # 依存関係のインストール
 pnpm install
 
-# スクリプトの実行
-node github-transfer-ruleset/1.get-all-branch-protection.mjs
-node github-transfer-ruleset/2.filter-rule-exist-repos.mjs
-node github-transfer-ruleset/3.generate-list.mjs
-node github-transfer-ruleset/4.register-ruleset.mjs
+# スクリプトの実行（github-transfer-ruleset ディレクトリ内）
+node 1.get-all-branch-protection.mjs
+node 2.filter-rule-exist-repos.mjs
+node 3.generate-list.mjs
+node 4.register-ruleset.mjs
 ```
 
 ## 注意事項
@@ -43,4 +43,4 @@ node github-transfer-ruleset/4.register-ruleset.mjs
 
 ## リポジトリ固有
 - GitHub GraphQL API および REST API を使用している。
-- 実行結果は `github-transfer-ruleset/data/` ディレクトリに保存される（スクリプトによってパスの指定が異なる場合があるため、各ファイルの `fs.writeFileSync` を確認すること）。
+- 実行結果は `github-transfer-ruleset/data/` ディレクトリに保存される（出力ファイル名はスクリプトによって異なる）。

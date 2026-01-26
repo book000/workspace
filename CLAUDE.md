@@ -32,7 +32,7 @@ Claude Code の作業方針とプロジェクト固有ルールを示す。
 - docstring: 関数・クラスに日本語で JSDoc を記載する
 
 ## 相談ルール
--実装レビュー、局所設計、整合性確認
+- Copilot: 実装レビュー、局所設計、整合性確認
 - Gemini CLI: 外部仕様、最新情報確認
 
 ## 開発コマンド
@@ -53,7 +53,7 @@ node 4.register-ruleset.mjs
   - `2.filter-rule-exist-repos.mjs`: 有効なルールのフィルタリング
   - `3.generate-list.mjs`: TSV 形式のリスト生成
   - `4.register-ruleset.mjs`: Ruleset の登録（未実装）
-- `data/`: 実行結果の保存先（`.gitignore` で除外）
+- `data/`: 実行結果の保存先（`.gitignore` で除外（`github-transfer-ruleset/.gitignore`））
 
 ## テスト
 - 現時点では自動テストは導入されていない。
