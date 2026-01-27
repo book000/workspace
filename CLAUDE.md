@@ -52,7 +52,7 @@ node 4.register-ruleset.mjs
   - `1.get-all-branch-protection.mjs`: GraphQL を使用して全ルールの取得
   - `2.filter-rule-exist-repos.mjs`: 有効なルールのフィルタリング
   - `3.generate-list.mjs`: TSV 形式のリスト生成
-  - `4.register-ruleset.mjs`: Ruleset の登録（未実装）
+  - `4.register-ruleset.mjs`: Ruleset の登録（未完成）
 - `data/`: 実行結果の保存先（`.gitignore` で除外（`github-transfer-ruleset/.gitignore`））
 
 ## テスト

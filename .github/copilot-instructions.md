@@ -6,7 +6,7 @@
   - 全リポジトリの Branch Protection rules の取得
   - ルールが存在するリポジトリのフィルタリング
   - 必要なステータスチェックのコンテキストリスト生成
-  - Ruleset の登録（実装中）
+  - Ruleset の登録（未完成）
 - 対象ユーザー: 管理者
 
 ## 共通ルール
@@ -39,4 +39,4 @@ node 4.register-ruleset.mjs
 ## 注意事項
 - GitHub API トークンは `../github-token.txt` に保存されている必要がある。
 - 実行結果は `data/` ディレクトリに出力される。
-- `4.register-ruleset.mjs` は現在スタブ状態であり、実装が必要。
+- `4.register-ruleset.mjs` は現在未完成の状態であり、実装が必要。
